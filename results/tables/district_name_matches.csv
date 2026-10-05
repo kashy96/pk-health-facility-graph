@@ -1,0 +1,127 @@
+left,right,method,score
+Khuzdar,Khuzdar,exact,1.0
+Khairpur,Khairpur,exact,1.0
+Shigar,,excluded,0.0
+Azad Kashmir,,excluded,0.0
+Mansehra,Mansehra,exact,1.0
+Sheikhpura,Sheikhupura,fuzzy,0.952
+Islamabad Capital Territory,Islamabad,exact,1.0
+Chagai,Chagai,exact,1.0
+Nushki,Nushki,exact,1.0
+Qilla Abdullah,Killa Abdullah,fuzzy,0.923
+Quetta,Quetta,exact,1.0
+Pishin,Pishin,exact,1.0
+Kharan,Kharan,exact,1.0
+Mastung,Mastung,exact,1.0
+Ziarat,Ziarat,exact,1.0
+Qilla Saifullah,Killa Saifullah,fuzzy,0.929
+Gwadar,Gwadar,exact,1.0
+Kech,Kech,exact,1.0
+Panjgur,Panjgur,exact,1.0
+Zhob,Zhob,exact,1.0
+Musakhel,Musakhel,exact,1.0
+Loralai,Loralai,exact,1.0
+Sibi,Sibi,exact,1.0
+Barkhan,Barkhan,exact,1.0
+Kohlu,Kohlu,exact,1.0
+Dera Bugti,Dera Bugti,exact,1.0
+Kalat,Kalat,exact,1.0
+Jafarabad,Jaffarabad,fuzzy,0.947
+Nasirabad,Nasirabad,exact,1.0
+Jhal Magsi,Jhal Magsi,exact,1.0
+Kachhi,Kachhi,exact,1.0
+Awaran,Awaran,exact,1.0
+Lasbela,Las Bela,exact,1.0
+Karachi,Karachi City,alias,1.0
+Thatta,Thatta,exact,1.0
+Tharparkar,Tharparkar,exact,1.0
+Umerkot,Umerkot,exact,1.0
+Jamshoro,Jamshoro,exact,1.0
+Dadu,Dadu,exact,1.0
+Tando Muhammad Khan,Tando Muhammad Khan,exact,1.0
+Hyderabad,Hyderabad,exact,1.0
+Tando Allahyar,Tando Allah Yar,exact,1.0
+Badin,Badin,exact,1.0
+Mirpurkhas,Mirpur Khas,exact,1.0
+Matiari,Matiari,exact,1.0
+Nawabshah,Shaheed Benazirabad,alias,1.0
+Sanghar,Sanghar,exact,1.0
+Naushehro Feroze,Naushahro Feroze,fuzzy,0.933
+Qambar Shahdadkot,Qambar Shahdadkot,exact,1.0
+Jacobabad,Jacobabad,exact,1.0
+Shikarpur,Shikarpur,exact,1.0
+Ghotki,Ghotki,exact,1.0
+Sukkur,Sukkur,exact,1.0
+Kashmore,Kashmore,exact,1.0
+Rajanpur,Rajanpur,exact,1.0
+Dera Ghazi Khan,Dera Ghazi Khan,exact,1.0
+Rahim Yar Khan,Rahim Yar Khan,exact,1.0
+Bahawalpur,Bahawalpur,exact,1.0
+Bahawalnagar,Bahawalnagar,exact,1.0
+Muzaffargarh,Muzaffargarh,exact,1.0
+Multan,Multan,exact,1.0
+Lodhran,Lodhran,exact,1.0
+Vihari,Vehari,alias,1.0
+Pakpattan,Pakpattan,exact,1.0
+Khanewal,Khanewal,exact,1.0
+Layyah,Layyah,exact,1.0
+Bhakkar,Bhakkar,exact,1.0
+Mianwali,Mianwali,exact,1.0
+Attock,Attock,exact,1.0
+Rawalpindi,Rawalpindi,exact,1.0
+Chakwal,Chakwal,exact,1.0
+Jhelum,Jhelum,exact,1.0
+Khushab,Khushab,exact,1.0
+Jhang,Jhang,exact,1.0
+Sargodha,Sargodha,exact,1.0
+Mandi Bahauddin,Mandi Bahauddin,exact,1.0
+Gujrat,Gujrat,exact,1.0
+Sialkot,Sialkot,exact,1.0
+Toba Tek Singh,Toba Tek Singh,exact,1.0
+Sahiwal,Sahiwal,exact,1.0
+Kasur,Kasur,exact,1.0
+Faisalabad,Faisalabad,exact,1.0
+Lahore,Lahore,exact,1.0
+Hafizabad,Hafizabad,exact,1.0
+Dera Ismail Khan,Dera Ismail Khan,exact,1.0
+Mohmand,Mohmand,exact,1.0
+South Waziristan,South Waziristan,exact,1.0
+North Waziristan,North Waziristan,exact,1.0
+Kurram,Kurram,exact,1.0
+Orakzai,Orakzai,exact,1.0
+Khyber,Khyber,exact,1.0
+Bajaur,Bajaur,exact,1.0
+Tank,Tank,exact,1.0
+Bannu,Bannu,exact,1.0
+Lakki Marwat,Lakki Marwat,exact,1.0
+Hangu,Hangu,exact,1.0
+Karak,Karak,exact,1.0
+Kohat,Kohat,exact,1.0
+Peshawar,Peshawar,exact,1.0
+Charsadda,Charsadda,exact,1.0
+Nowshera,Nowshera,exact,1.0
+Chitral,Chitral,exact,1.0
+Upper Dir,Upper Dir,exact,1.0
+Lower Dir,Lower Dir,exact,1.0
+Malakand,Malakand PA,fuzzy,0.889
+Swat,Swat,exact,1.0
+Kohistan,Kohistan,exact,1.0
+Mardan,Mardan,exact,1.0
+Swabi,Swabi,exact,1.0
+Buner,Buner,exact,1.0
+Haripur,Haripur,exact,1.0
+Abbottabad,Abbottabad,exact,1.0
+Battagram,Batagram,fuzzy,0.941
+Shangla,Shangla,exact,1.0
+Diamer,,excluded,0.0
+Ghizer,,excluded,0.0
+Hunza,,excluded,0.0
+Gilgit,,excluded,0.0
+Nagar,,excluded,0.0
+Astore,,excluded,0.0
+Kharmang,,excluded,0.0
+Skardu,,excluded,0.0
+Ghanche,,excluded,0.0
+Okara,Okara,exact,1.0
+Narowal,Narowal,exact,1.0
+Gujranwala,Gujranwala,exact,1.0

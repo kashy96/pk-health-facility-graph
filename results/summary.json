@@ -1,0 +1,29 @@
+{
+  "facilities_raw": 5076,
+  "duplicates_removed": 137,
+  "facilities_clean": 4939,
+  "by_type": {
+    "hospital": 2413,
+    "clinic": 905,
+    "pharmacy": 867,
+    "doctors": 270,
+    "other": 206,
+    "laboratory": 165,
+    "dentist": 113
+  },
+  "districts": 126,
+  "districts_matched_to_population": 115,
+  "districts_excluded": 11,
+  "districts_without_hospital": 17,
+  "triples": 36324,
+  "who_latest": {
+    "who_doctors_per_10k": {
+      "year": 2024,
+      "value": 12.84
+    },
+    "who_nurses_per_10k": {
+      "year": 2024,
+      "value": 5.23
+    }
+  }
+}

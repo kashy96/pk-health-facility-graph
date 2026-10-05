@@ -1,0 +1,13 @@
+# Facility mix per province.
+PREFIX schema: <https://schema.org/>
+PREFIX pkh: <https://github.com/kashy96/pk-health-facility-graph/vocab#>
+
+SELECT ?province ?type (COUNT(?f) AS ?facilities)
+WHERE {
+  ?f pkh:facilityType ?type ;
+     schema:containedInPlace/schema:containedInPlace ?p .
+  ?p pkh:level "province" ;
+     schema:name ?province .
+}
+GROUP BY ?province ?type
+ORDER BY ?province DESC(?facilities)

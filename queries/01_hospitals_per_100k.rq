@@ -1,0 +1,16 @@
+# Mapped hospitals per 100,000 people, by district (2017 census population).
+PREFIX schema: <https://schema.org/>
+PREFIX pkh: <https://github.com/kashy96/pk-health-facility-graph/vocab#>
+
+SELECT ?district ?province ?population (COUNT(?h) AS ?hospitals)
+       ((COUNT(?h) * 100000.0) / ?population AS ?per_100k)
+WHERE {
+  ?d pkh:level "district" ;
+     schema:name ?district ;
+     pkh:population ?population ;
+     schema:containedInPlace ?p .
+  ?p schema:name ?province .
+  OPTIONAL { ?h a schema:Hospital ; schema:containedInPlace ?d . }
+}
+GROUP BY ?district ?province ?population
+ORDER BY ?per_100k

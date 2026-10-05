@@ -1,0 +1,36 @@
+province,type,facilities
+Balochistan,hospital,55
+Balochistan,pharmacy,11
+Balochistan,clinic,5
+Balochistan,doctors,5
+Balochistan,laboratory,4
+Balochistan,other,2
+Balochistan,dentist,1
+Federal Capital Territory,hospital,104
+Federal Capital Territory,pharmacy,76
+Federal Capital Territory,clinic,32
+Federal Capital Territory,doctors,11
+Federal Capital Territory,dentist,7
+Federal Capital Territory,laboratory,4
+Federal Capital Territory,other,2
+Khyber Pakhtunkhwa,hospital,199
+Khyber Pakhtunkhwa,clinic,63
+Khyber Pakhtunkhwa,pharmacy,37
+Khyber Pakhtunkhwa,doctors,19
+Khyber Pakhtunkhwa,other,15
+Khyber Pakhtunkhwa,dentist,7
+Khyber Pakhtunkhwa,laboratory,3
+Punjab,hospital,774
+Punjab,pharmacy,216
+Punjab,clinic,175
+Punjab,doctors,61
+Punjab,other,32
+Punjab,dentist,28
+Punjab,laboratory,19
+Sindh,hospital,1195
+Sindh,clinic,623
+Sindh,pharmacy,517
+Sindh,other,137
+Sindh,laboratory,134
+Sindh,doctors,92
+Sindh,dentist,70

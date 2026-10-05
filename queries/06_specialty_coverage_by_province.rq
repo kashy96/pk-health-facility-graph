@@ -1,0 +1,16 @@
+# How often a specialty is recorded, by province: where is the open data least detailed?
+PREFIX schema: <https://schema.org/>
+PREFIX pkh: <https://github.com/kashy96/pk-health-facility-graph/vocab#>
+
+SELECT ?province (COUNT(DISTINCT ?f) AS ?facilities)
+       (COUNT(DISTINCT ?withSpecialty) AS ?with_specialty)
+       ((COUNT(DISTINCT ?withSpecialty) * 100.0) / COUNT(DISTINCT ?f) AS ?pct_with_specialty)
+WHERE {
+  ?f pkh:facilityType ?type ;
+     schema:containedInPlace/schema:containedInPlace ?p .
+  ?p pkh:level "province" ;
+     schema:name ?province .
+  OPTIONAL { ?f schema:medicalSpecialty ?s . BIND(?f AS ?withSpecialty) }
+}
+GROUP BY ?province
+ORDER BY DESC(?pct_with_specialty)

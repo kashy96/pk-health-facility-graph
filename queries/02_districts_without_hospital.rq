@@ -1,0 +1,12 @@
+# Districts where OpenStreetMap has no hospital at all.
+PREFIX schema: <https://schema.org/>
+PREFIX pkh: <https://github.com/kashy96/pk-health-facility-graph/vocab#>
+
+SELECT ?district ?population
+WHERE {
+  ?d pkh:level "district" ;
+     schema:name ?district .
+  OPTIONAL { ?d pkh:population ?population . }
+  FILTER NOT EXISTS { ?h a schema:Hospital ; schema:containedInPlace ?d . }
+}
+ORDER BY DESC(?population)

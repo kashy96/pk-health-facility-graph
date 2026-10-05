@@ -1,0 +1,13 @@
+# Which specialties are recorded in each province, and at how many facilities.
+PREFIX schema: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?province ?specialty (COUNT(DISTINCT ?f) AS ?facilities)
+WHERE {
+  ?f schema:medicalSpecialty ?s ;
+     schema:containedInPlace/schema:containedInPlace ?p .
+  ?s rdfs:label ?specialty .
+  ?p schema:name ?province .
+}
+GROUP BY ?province ?specialty
+ORDER BY ?province DESC(?facilities)

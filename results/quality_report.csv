@@ -1,0 +1,11 @@
+check,value,threshold,passed,severity,detail
+facility ids are unique,0.0,0.0,True,error,duplicate osm_id values
+coordinates inside Pakistan's bounding box,0.0,0.0,True,error,
+completeness of `name`,0.945,0.9,True,warn,94.5% of 4939 facilities
+completeness of `city`,0.595,0.5,True,warn,59.5% of 4939 facilities
+completeness of `specialties`,0.051,0.2,False,warn,5.1% of 4939 facilities
+completeness of `operator_type`,0.054,0.2,False,warn,5.4% of 4939 facilities
+facility type recognised,0.958,0.9,True,warn,4.2% could not be mapped to a type
+facilities placed in a district,9.0,0.0,False,warn,"40 snapped to the nearest district within 5 km, 9 left unassigned"
+addr:city agrees with the coordinate district,0.782,,True,info,"78.2% of 2939 facilities that have a city; low values are expected, since a city is not a district, but large gaps flag misplaced points"
+boundaries -> population: names matched,1.0,0.9,True,warn,7 fuzzy matches to review; 11 excluded by design; unmatched: none

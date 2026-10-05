@@ -1,0 +1,212 @@
+province,specialty,facilities
+Balochistan,general,14
+Balochistan,chiropractic,3
+Balochistan,ophthalmology,3
+Balochistan,dentistry,3
+Balochistan,psychiatry,2
+Balochistan,paediatrics,2
+Balochistan,orthopaedics,1
+Balochistan,internal,1
+Balochistan,gynaecology,1
+Balochistan,biology,1
+Balochistan,emergency,1
+Federal Capital Territory,general,8
+Federal Capital Territory,gynaecology,3
+Federal Capital Territory,dentistry,3
+Federal Capital Territory,orthopaedics,2
+Federal Capital Territory,dermatology,2
+Federal Capital Territory,surgery,2
+Federal Capital Territory,radiology,2
+Federal Capital Territory,cardiology,2
+Federal Capital Territory,plastic surgery,2
+Federal Capital Territory,clinic,1
+Federal Capital Territory,dental oral maxillo facial surgery,1
+Federal Capital Territory,dermatovenereology,1
+Federal Capital Territory,neurosurgery,1
+Federal Capital Territory,haematology,1
+Federal Capital Territory,blood check,1
+Federal Capital Territory,blood bank,1
+Federal Capital Territory,ophthalmology,1
+Federal Capital Territory,paediatrics,1
+Federal Capital Territory,pharmacy,1
+Federal Capital Territory,otolaryngology,1
+Federal Capital Territory,physiotherapy,1
+Federal Capital Territory,allergology,1
+Federal Capital Territory,diabetology,1
+Federal Capital Territory,psychiatry,1
+Federal Capital Territory,mental health,1
+Federal Capital Territory,psychotherapy,1
+Federal Capital Territory,addiction treatment,1
+Federal Capital Territory,internal,1
+Federal Capital Territory,pet clinic,1
+Federal Capital Territory,animal hospital,1
+Federal Capital Territory,emergency,1
+Federal Capital Territory,vaccination,1
+Khyber Pakhtunkhwa,general,14
+Khyber Pakhtunkhwa,cardiology,4
+Khyber Pakhtunkhwa,orthopaedics,4
+Khyber Pakhtunkhwa,paediatrics,3
+Khyber Pakhtunkhwa,radiology,3
+Khyber Pakhtunkhwa,dentistry,2
+Khyber Pakhtunkhwa,psychiatry,2
+Khyber Pakhtunkhwa,surgery,2
+Khyber Pakhtunkhwa,emergency,2
+Khyber Pakhtunkhwa,ngo,1
+Khyber Pakhtunkhwa,community,1
+Khyber Pakhtunkhwa,chest specialist,1
+Khyber Pakhtunkhwa,homeopathy,1
+Khyber Pakhtunkhwa,dialysis,1
+Khyber Pakhtunkhwa,oncology,1
+Khyber Pakhtunkhwa,compunder/nurse,1
+Khyber Pakhtunkhwa,upper chitral,1
+Khyber Pakhtunkhwa,ophthalmology,1
+Khyber Pakhtunkhwa,intensive,1
+Khyber Pakhtunkhwa,gynaecology,1
+Khyber Pakhtunkhwa,internal,1
+Khyber Pakhtunkhwa,urology,1
+Khyber Pakhtunkhwa,otolaryngology,1
+Khyber Pakhtunkhwa,blood check,1
+Pakistan,general,4
+Pakistan,dermatology,3
+Pakistan,ophthalmology,2
+Pakistan,radiology,2
+Pakistan,urology,2
+Pakistan,gynaecology,2
+Pakistan,biology,1
+Pakistan,chiropractic,1
+Pakistan,orthopaedics,1
+Pakistan,oncology,1
+Pakistan,traditional chinese medicine,1
+Pakistan,cardiology,1
+Pakistan,paediatrics,1
+Pakistan,dentistry,1
+Pakistan,covid19,1
+Pakistan,physiatry,1
+Punjab,general,38
+Punjab,gynaecology,14
+Punjab,cardiology,12
+Punjab,dermatology,10
+Punjab,emergency,10
+Punjab,paediatrics,9
+Punjab,dentistry,8
+Punjab,homeopathy,8
+Punjab,radiology,8
+Punjab,surgery,6
+Punjab,orthopaedics,6
+Punjab,ophthalmology,5
+Punjab,urology,4
+Punjab,dental oral maxillo facial surgery,4
+Punjab,psychiatry,4
+Punjab,blood check,4
+Punjab,physiotherapy,3
+Punjab,internal,3
+Punjab,vaccination,3
+Punjab,oncology,3
+Punjab,implantology,2
+Punjab,cosmetic,2
+Punjab,chiropractic,2
+Punjab,neurology,2
+Punjab,anaesthetics,2
+Punjab,ambulance service,2
+Punjab,physiatry,2
+Punjab,community,2
+Punjab,intensive,2
+Punjab,gastroenterology,2
+Punjab,nephrology,2
+Punjab,maxillofacial surgery,1
+Punjab,cosmetic dentistry,1
+Punjab,cosmetic surgery,1
+Punjab,oral surgery,1
+Punjab,dentiste,1
+Punjab,dental surgery,1
+Punjab,denturist,1
+Punjab,skin,1
+Punjab,maxillo facial surgery,1
+Punjab,dermatologist,1
+Punjab,endodontics,1
+Punjab,geriatrics,1
+Punjab,naturopathy,1
+Punjab,herbalism,1
+Punjab,unani,1
+Punjab,ayurveda,1
+Punjab,traditional chinese medicine,1
+Punjab,covid19,1
+Punjab,periodontics (gum disease),1
+Punjab,endodontics (root canal treatment),1
+Punjab,implant dentist,1
+Punjab,cosmetic dentist,1
+Punjab,aesthetic dentist,1
+Punjab,dental clinic,1
+Punjab,angiology,1
+Punjab,fire birgade service,1
+Punjab,flood management service,1
+Punjab,rescue,1
+Punjab,biology,1
+Punjab,child psychiatry,1
+Punjab,plastic surgery,1
+Punjab,eye specialist and surgeon,1
+Punjab,fire brigade serivce,1
+Punjab,allergology,1
+Punjab,clinical pathology,1
+Punjab,maternity,1
+Punjab,ear,1
+Punjab,nose & throat,1
+Punjab,pathology,1
+Punjab,dialysis,1
+Punjab,ambulance,1
+Punjab,fire birgade,1
+Punjab,nuclear medicine,1
+Punjab,clinic,1
+Punjab,otolaryngology,1
+Punjab,infectious diseases,1
+Punjab,oriental medicine,1
+Punjab,rheumatology,1
+Punjab,diabetology,1
+Punjab,endocrinology,1
+Punjab,hepatology,1
+Punjab,specialist pediatrician,1
+Punjab,pediatric,1
+Sindh,general,38
+Sindh,dermatology,17
+Sindh,ophthalmology,14
+Sindh,homeopathy,10
+Sindh,pulmonology,10
+Sindh,gynaecology,9
+Sindh,paediatrics,6
+Sindh,orthopaedics,4
+Sindh,surgery,4
+Sindh,nephrology,3
+Sindh,radiology,3
+Sindh,otolaryngology,3
+Sindh,cardiology,3
+Sindh,emergency,3
+Sindh,internal,2
+Sindh,community,2
+Sindh,plastic surgery,2
+Sindh,neurology,2
+Sindh,vaccination,2
+Sindh,dentistry,1
+Sindh,gastroenterology,1
+Sindh,prosthetics,1
+Sindh,orthotics,1
+Sindh,occupational therapy,1
+Sindh,neurosurgery,1
+Sindh,traditional chinese medicine,1
+Sindh,health promotion and prevention,1
+Sindh,dental oral maxillo facial surgery,1
+Sindh,24.92939952877294,1
+Sindh, 67.06785153048338,1
+Sindh,psychiatry,1
+Sindh,hair transplant,1
+Sindh,skin clinic,1
+Sindh,laser hair removal,1
+Sindh,skin whitening treatment,1
+Sindh,thalassemia,1
+Sindh,ultrasound,1
+Sindh,chiropractic,1
+Sindh,infectious diseases,1
+Sindh,urology,1
+Sindh,anaesthetics,1
+Sindh,pathology,1
+Sindh,diabetology,1
+Sindh,intensive,1

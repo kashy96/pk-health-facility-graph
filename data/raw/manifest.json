@@ -1,0 +1,50 @@
+{
+  "facilities_points": {
+    "url": "https://s3.dualstack.us-east-1.amazonaws.com/production-raw-data-api/ISO3/PAK/health_facilities/points/hotosm_pak_health_facilities_points_geojson.zip",
+    "file": "hotosm_pak_health_facilities_points_geojson.zip",
+    "licence": "ODbL (OpenStreetMap contributors, via the Humanitarian OpenStreetMap Team export on HDX)",
+    "downloaded": "2026-10-04T09:16:57+00:00",
+    "bytes": 162160,
+    "sha256": "02a093da00a2932f055dbdeb79f251a51592027cb6ca1cc96c30a9777cbbda4b"
+  },
+  "facilities_polygons": {
+    "url": "https://s3.dualstack.us-east-1.amazonaws.com/production-raw-data-api/ISO3/PAK/health_facilities/polygons/hotosm_pak_health_facilities_polygons_geojson.zip",
+    "file": "hotosm_pak_health_facilities_polygons_geojson.zip",
+    "licence": "ODbL (OpenStreetMap contributors, via the Humanitarian OpenStreetMap Team export on HDX)",
+    "downloaded": "2026-10-04T09:16:58+00:00",
+    "bytes": 70959,
+    "sha256": "1622b47bc9ff211e0ba3492a6353c45e92c210c64b153bf5f973d1639e28c0d0"
+  },
+  "districts": {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PAK/ADM2/geoBoundaries-PAK-ADM2_simplified.geojson",
+    "file": "geoBoundaries-PAK-ADM2_simplified.geojson",
+    "licence": "geoBoundaries gbOpen (see geoboundaries.org)",
+    "downloaded": "2026-10-04T09:17:03+00:00",
+    "bytes": 921802,
+    "sha256": "f274cfc377b3b570b6fd620c2911b5e4acd14460f9cb48551747f1d698566f2e"
+  },
+  "population": {
+    "url": "https://data.humdata.org/dataset/9d48b019-3dd3-4284-ac11-200a70370447/resource/2fe439f1-8c17-4d5b-92d4-909858fc233b/download/pak_admpop_adm2_v2.csv",
+    "file": "pak_admpop_adm2_v2.csv",
+    "licence": "HDX COD-PS Pakistan (2017 census, OCHA)",
+    "downloaded": "2026-10-04T09:17:08+00:00",
+    "bytes": 10865,
+    "sha256": "91ebcb541738a61e425251ecea8c7dc292c77cbb99f8c301b5b018572685dab1"
+  },
+  "who_doctors_per_10k": {
+    "url": "https://ghoapi.azureedge.net/api/HWF_0001?$filter=SpatialDim%20eq%20'PAK'",
+    "file": "who_HWF_0001_PAK.json",
+    "licence": "WHO Global Health Observatory",
+    "downloaded": "2026-10-04T09:17:10+00:00",
+    "bytes": 17836,
+    "sha256": "35f1d791c414db390e70042f813d4f44fed760f427b60720f65f3df2fa089039"
+  },
+  "who_nurses_per_10k": {
+    "url": "https://ghoapi.azureedge.net/api/HWF_0006?$filter=SpatialDim%20eq%20'PAK'",
+    "file": "who_HWF_0006_PAK.json",
+    "licence": "WHO Global Health Observatory",
+    "downloaded": "2026-10-04T09:17:13+00:00",
+    "bytes": 15977,
+    "sha256": "9a163fb0abc76c858eaf7feba683030ceceadb948289c5690e3491115937e1ea"
+  }
+}

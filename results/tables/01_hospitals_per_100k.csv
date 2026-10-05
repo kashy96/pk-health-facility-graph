@@ -1,0 +1,116 @@
+district,province,population,hospitals,per_100k
+Nushki,Balochistan,178796,0,0.0
+Mastung,Balochistan,266461,0,0.0
+Ziarat,Balochistan,160422,0,0.0
+Musakhel,Balochistan,167017,0,0.0
+Barkhan,Balochistan,171556,0,0.0
+Kohlu,Balochistan,214350,0,0.0
+Dera Bugti,Balochistan,312603,0,0.0
+Kalat,Balochistan,412232,0,0.0
+Jhal Magsi,Balochistan,149225,0,0.0
+Awaran,Balochistan,121680,0,0.0
+Dadu,Sindh,1550266,0,0.0
+Kashmore,Sindh,1089169,0,0.0
+Tank,Khyber Pakhtunkhwa,391885,0,0.0
+Bannu,Khyber Pakhtunkhwa,1167892,0,0.0
+Lakki Marwat,Khyber Pakhtunkhwa,876182,0,0.0
+Hangu,Khyber Pakhtunkhwa,518798,0,0.0
+Malakand,Khyber Pakhtunkhwa,720295,0,0.0
+Vihari,Punjab,2897446,1,0.035
+Ghotki,Sindh,1646318,1,0.061
+Bajaur,Khyber Pakhtunkhwa,1093684,1,0.091
+Khyber,Khyber Pakhtunkhwa,986973,1,0.101
+Pakpattan,Punjab,1823687,2,0.11
+Kech,Balochistan,909116,1,0.11
+Buner,Khyber Pakhtunkhwa,897319,1,0.111
+Khuzdar,Balochistan,802207,1,0.125
+Shangla,Khyber Pakhtunkhwa,757810,1,0.132
+Qilla Abdullah,Balochistan,757578,1,0.132
+Sahiwal,Punjab,2517560,4,0.159
+Kurram,Khyber Pakhtunkhwa,619553,1,0.161
+Shikarpur,Sindh,1231481,2,0.162
+Okara,Punjab,3039139,5,0.165
+Lodhran,Punjab,1700620,3,0.176
+North Waziristan,Khyber Pakhtunkhwa,543254,1,0.184
+Naushehro Feroze,Sindh,1612373,3,0.186
+Jafarabad,Balochistan,513813,1,0.195
+Rajanpur,Punjab,1995958,4,0.2
+Bahawalnagar,Punjab,2981919,6,0.201
+Khanewal,Punjab,2921986,6,0.205
+Rahim Yar Khan,Punjab,4814006,10,0.208
+Sargodha,Punjab,3703588,8,0.216
+Narowal,Punjab,1709757,4,0.234
+Bhakkar,Punjab,1650518,4,0.242
+Muzaffargarh,Punjab,4322009,11,0.255
+Kohistan,Khyber Pakhtunkhwa,784711,2,0.255
+Matiari,Sindh,769349,2,0.26
+Kasur,Punjab,3454996,9,0.26
+Pishin,Balochistan,736481,2,0.272
+Layyah,Punjab,1824230,5,0.274
+Karak,Khyber Pakhtunkhwa,706299,2,0.283
+South Waziristan,Khyber Pakhtunkhwa,679185,2,0.294
+Jacobabad,Sindh,1006297,3,0.298
+Tharparkar,Sindh,1649661,5,0.303
+Panjgur,Balochistan,316385,1,0.316
+Upper Dir,Khyber Pakhtunkhwa,946421,3,0.317
+Toba Tek Singh,Punjab,2190015,7,0.32
+Mansehra,Khyber Pakhtunkhwa,1556460,5,0.321
+Zhob,Balochistan,310544,1,0.322
+Jhang,Punjab,2743416,9,0.328
+Khairpur,Sindh,2404334,8,0.333
+Lower Dir,Khyber Pakhtunkhwa,1435917,5,0.348
+Swabi,Khyber Pakhtunkhwa,1624616,6,0.369
+Dera Ghazi Khan,Punjab,2872201,11,0.383
+Chakwal,Punjab,1495982,6,0.401
+Kohat,Khyber Pakhtunkhwa,993874,4,0.402
+Nasirabad,Balochistan,490538,2,0.408
+Kachhi,Balochistan,237030,1,0.422
+Mohmand,Khyber Pakhtunkhwa,466984,2,0.428
+Nawabshah,Sindh,1612847,7,0.434
+Nowshera,Khyber Pakhtunkhwa,1518540,7,0.461
+Swat,Khyber Pakhtunkhwa,2309570,11,0.476
+Loralai,Balochistan,397400,2,0.503
+Mardan,Khyber Pakhtunkhwa,2373061,12,0.506
+Hafizabad,Punjab,1156957,6,0.519
+Qilla Saifullah,Balochistan,342814,2,0.583
+Tando Muhammad Khan,Sindh,677228,4,0.591
+Sialkot,Punjab,3893672,23,0.591
+Bahawalpur,Punjab,3668106,22,0.6
+Dera Ismail Khan,Khyber Pakhtunkhwa,1627132,10,0.615
+Battagram,Khyber Pakhtunkhwa,476612,3,0.629
+Sibi,Balochistan,135572,1,0.738
+Gujranwala,Punjab,5014196,37,0.738
+Attock,Punjab,1883556,15,0.796
+Mandi Bahauddin,Punjab,1593292,13,0.816
+Abbottabad,Khyber Pakhtunkhwa,1332912,11,0.825
+Lasbela,Balochistan,574292,5,0.871
+Mianwali,Punjab,1546094,14,0.906
+Quetta,Balochistan,2275699,21,0.923
+Mirpurkhas,Sindh,1505876,14,0.93
+Khushab,Punjab,1281299,12,0.937
+Sukkur,Sindh,1487903,15,1.008
+Multan,Punjab,4745109,48,1.012
+Sheikhpura,Punjab,3460426,36,1.04
+Gwadar,Balochistan,263514,3,1.138
+Jhelum,Punjab,1222650,14,1.145
+Orakzai,Khyber Pakhtunkhwa,254356,3,1.179
+Haripur,Khyber Pakhtunkhwa,1003031,12,1.196
+Faisalabad,Punjab,7873910,95,1.207
+Rawalpindi,Punjab,5405633,66,1.221
+Charsadda,Khyber Pakhtunkhwa,1616198,23,1.423
+Peshawar,Khyber Pakhtunkhwa,4269079,63,1.476
+Jamshoro,Sindh,993142,15,1.51
+Chitral,Khyber Pakhtunkhwa,447362,7,1.565
+Chagai,Balochistan,226008,4,1.77
+Umerkot,Sindh,1073146,19,1.77
+Lahore,Punjab,11126285,205,1.842
+Tando Allahyar,Sindh,836887,16,1.912
+Gujrat,Punjab,2756110,53,1.923
+Thatta,Sindh,979817,19,1.939
+Qambar Shahdadkot,Sindh,1341042,32,2.386
+Sanghar,Sindh,2057057,57,2.771
+Hyderabad,Sindh,2199463,62,2.819
+Badin,Sindh,1804516,58,3.214
+Kharan,Balochistan,156152,6,3.842
+Islamabad Capital Territory,Federal Capital Territory,2006572,104,5.183
+Karachi,Sindh,16051521,853,5.314

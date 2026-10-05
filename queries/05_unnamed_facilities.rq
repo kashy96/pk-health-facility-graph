@@ -1,0 +1,11 @@
+# Share of facilities with no name, by type: a data-quality view straight from the graph.
+PREFIX schema: <https://schema.org/>
+PREFIX pkh: <https://github.com/kashy96/pk-health-facility-graph/vocab#>
+
+SELECT ?type (COUNT(?f) AS ?total) (SUM(IF(BOUND(?name), 0, 1)) AS ?unnamed)
+WHERE {
+  ?f pkh:facilityType ?type .
+  OPTIONAL { ?f schema:name ?name . FILTER(lang(?name) = "") }
+}
+GROUP BY ?type
+ORDER BY DESC(?total)

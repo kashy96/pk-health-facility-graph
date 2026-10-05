@@ -1,0 +1,48 @@
+raw_dir: data/raw
+output_dir: results
+dedupe_radius_m: 150
+
+sources:
+  facilities_points:
+    url: https://s3.dualstack.us-east-1.amazonaws.com/production-raw-data-api/ISO3/PAK/health_facilities/points/hotosm_pak_health_facilities_points_geojson.zip
+    file: hotosm_pak_health_facilities_points_geojson.zip
+    licence: ODbL (OpenStreetMap contributors, via the Humanitarian OpenStreetMap Team export on HDX)
+  facilities_polygons:
+    url: https://s3.dualstack.us-east-1.amazonaws.com/production-raw-data-api/ISO3/PAK/health_facilities/polygons/hotosm_pak_health_facilities_polygons_geojson.zip
+    file: hotosm_pak_health_facilities_polygons_geojson.zip
+    licence: ODbL (OpenStreetMap contributors, via the Humanitarian OpenStreetMap Team export on HDX)
+  districts:
+    url: https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PAK/ADM2/geoBoundaries-PAK-ADM2_simplified.geojson
+    file: geoBoundaries-PAK-ADM2_simplified.geojson
+    licence: geoBoundaries gbOpen (see geoboundaries.org)
+  population:
+    url: https://data.humdata.org/dataset/9d48b019-3dd3-4284-ac11-200a70370447/resource/2fe439f1-8c17-4d5b-92d4-909858fc233b/download/pak_admpop_adm2_v2.csv
+    file: pak_admpop_adm2_v2.csv
+    licence: HDX COD-PS Pakistan (2017 census, OCHA)
+  who_doctors_per_10k:
+    url: https://ghoapi.azureedge.net/api/HWF_0001?$filter=SpatialDim%20eq%20'PAK'
+    file: who_HWF_0001_PAK.json
+    licence: WHO Global Health Observatory
+  who_nurses_per_10k:
+    url: https://ghoapi.azureedge.net/api/HWF_0006?$filter=SpatialDim%20eq%20'PAK'
+    file: who_HWF_0006_PAK.json
+    licence: WHO Global Health Observatory
+
+# Boundary name -> census name, for pairs the automatic matcher gets wrong or misses.
+# Each one was checked by hand against results/tables/district_name_matches.csv.
+district_aliases:
+  Karachi: Karachi City             # one boundary unit, one census row
+  Nawabshah: Shaheed Benazirabad    # district renamed in 2008
+  Vihari: Vehari                    # spelling variant
+
+# Boundary units with no row in the 2017 census file: Gilgit-Baltistan and
+# Azad Jammu & Kashmir were enumerated separately and are not in this dataset.
+not_in_census: [Azad Kashmir, Astore, Diamer, Ghanche, Ghizer, Gilgit, Hunza, Kharmang, Nagar, Shigar, Skardu]
+
+quality:
+  min_join_share: 0.9
+  completeness:           # warn when a field is filled for less than this share
+    name: 0.9
+    city: 0.5
+    specialties: 0.2
+    operator_type: 0.2
